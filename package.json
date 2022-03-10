@@ -1,0 +1,23 @@
+{
+  "name": "html-portfolio-generator",
+  "version": "1.0.0",
+  "description": "This is a simple command-line application that dynamically generates a professional portfolio (HTML file) from a user's input using the NPM Inquirer package. The application will be invoked by using the node index.js in the user's command line.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egraham96/HTML-Portfolio-Generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egraham96/HTML-Portfolio-Generator/issues"
+  },
+  "homepage": "https://github.com/egraham96/HTML-Portfolio-Generator#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.1"
+  }
+}
