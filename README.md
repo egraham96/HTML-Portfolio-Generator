@@ -1,7 +1,7 @@
 # HTML Portfolio Generator
 
 ## Description:
-This week's homework required us to create a command-line application that dynamically generates a professional README.md file from a user's input using the NPM Inquirer package. The application will be invoked by using the node index.js in the user's command line. 
+This is a simple command-line application that dynamically generates a professional portfolio (HTML file) from a user's input using the NPM Inquirer package. The application will be invoked by using the node index.js in the user's command line. 
 
 ## Installation Instructions:
 Download this repository. Install the inquirer and FS node modules (For example, "npm install inquirer"). Run the file by typing "node index" into your terminal.
