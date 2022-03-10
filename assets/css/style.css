@@ -1,0 +1,46 @@
+
+
+header {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 28px;
+    text-align: center;
+}
+
+header img {
+    border:2px solid black;
+}
+
+#basicinfo, #intro{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:22px;
+    text-align: center;
+}
+
+#bio{font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:22px;
+    text-align: center;
+    border:2px solid black;}
+
+#bubble {
+    position: absolute;
+    height:200px;
+    width:200px;
+    left:770px;
+    bottom:100px;
+    text-align: center;
+    color: white;
+  }
+
+  .centered {
+    position: absolute;
+    left:790px;
+    bottom:210px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px;
+    z-index:1;
+  }
+
+
+
+
+  
