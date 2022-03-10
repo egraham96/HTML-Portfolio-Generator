@@ -1,5 +1,4 @@
-function generateHTML(userInput){
-    return `<!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
     
     <head>
@@ -10,16 +9,16 @@ function generateHTML(userInput){
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
-        <title>${userInput.fname} + ${userInput.lname} + 's + Professional Portfolio</title>
+        <title>Emma + Graham + 's + Professional Portfolio</title>
     </head>
     
     <body>
         <header>
-            <h1>Welcome to ${userInput.fname} + ${userInput.lname} + 's Professional Portfolio</h1>
+            <h1>Welcome to Emma + Graham + 's Professional Portfolio</h1>
             <br>
             <img src="photounavailable.jpg">
-            <p id="intro">${userInput.title} <br>
-                ${userInput.location} </p>
+            <p id="intro">Full Stack Software Developer <br>
+                Seattle, WA </p>
         </header>
         <div id="bubble">
             <img src="speechbubble.jpeg" alt="speech bubble" style="width:100%;">
@@ -29,21 +28,17 @@ function generateHTML(userInput){
     
     
     <main>
-        <p id="bio">${userInput.bio}</p>
+        <p id="bio">Aspiring Full Stack Web Developer looking for a challenging position in software design and development to cement my recent career change. Committed to providing creative solutions to enhance user experience in all aspects.</p>
         <br><p id="basicinfo">
             <u>Contact Me</u><br>
-            Phone number: ${userInput.phone}<br>
-            Email address: ${userInput.email} <br>
-            LinkedIn: <a href="https://www.linkedin.com/in/${userInput.linkedin}">https://www.linkedin.com/in/${userInput.linkedin}</a><br>
-            GitHub: <a href="https://github.com/${userInput.username}">https://github.com/${userInput.username}</a>
+            Phone number: 206-947-5976<br>
+            Email address: eeg4@uw.edu <br>
+            LinkedIn: <a href="https://www.linkedin.com/in/emmag96">https://www.linkedin.com/in/emmag96</a><br>
+            GitHub: <a href="https://github.com/egraham96">https://github.com/egraham96</a>
         </p>
     
         
     
     </main>
     </body>
-    </html>`
-
-;}
-
-module.exports = generateHTML;
+    </html>

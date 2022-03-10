@@ -69,7 +69,7 @@ function init() {inquirer
     .prompt(questions)
     .then((userInput) => {
       console.log(userInput);
-      writeToFile('newPortfolio.html', generateHTML(userInput))
+      writeToFile('assets/newPortfolio.html', generateHTML(userInput))
     });}
 
 init()
